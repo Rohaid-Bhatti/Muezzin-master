@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Application name -->
+    <string name="applicationName">Müezzin</string>
+
+    <!-- Prayer time names -->
+    <string name="prayerTime_fajr">İmsak</string>
+    <string name="prayerTime_dhuhr">Öğle</string>
+    <string name="prayerTime_asr">İkindi</string>
+    <string name="prayerTime_maghrib">Akşam</string>
+    <string name="prayerTime_isha">Yatsı</string>
+    <string name="prayerTime_shuruq">Güneş</string>
+    <string name="prayerTime_qibla">Kıble</string>
+
+    <!-- Hijri Month Names -->
+    <string name="hijriMonth1">Muharrem</string>
+    <string name="hijriMonth2">Safer</string>
+    <string name="hijriMonth3">Rebiülevvel</string>
+    <string name="hijriMonth4">Rebiülahir</string>
+    <string name="hijriMonth5">Cemaziyelevvel</string>
+    <string name="hijriMonth6">Cemaziyelahir</string>
+    <string name="hijriMonth7">Recep</string>
+    <string name="hijriMonth8">Şaban</string>
+    <string name="hijriMonth9">Ramazan</string>
+    <string name="hijriMonth10">Şevval</string>
+    <string name="hijriMonth11">Zilkade</string>
+    <string name="hijriMonth12">Zilhicce</string>
+
+    <!-- Welcome -->
+    <string name="welcome_skip">Atla</string>
+    <string name="welcome_done">Bitir</string>
+    <string name="welcome_title1">Müezzin\'e Hoş Geldiniz!</string>
+    <string name="welcome_content1">Müezzin ile namaz vakitlerini kolayca takip edebilirsiniz.</string>
+    <string name="welcome_title2">Başlamak İçin Bir Konum Seçin</string>
+    <string name="welcome_content2">Müezzin 200\'den fazla ülkeyi ve şehirlerini destekler.</string>
+    <string name="welcome_title3">Hatırlatıcılar Belirleyin</string>
+    <string name="welcome_content3">Müezzin size namaz vakitlerinin yaklaştığını hatırlatabilir.</string>
+    <string name="welcome_title4">Ana Ekran Araçları</string>
+    <string name="welcome_content4">Artık ana ekranınıza Müezzin araçları (widget) ekleyebilirsiniz.</string>
+    <string name="welcome_updateNotice">Verilerdeki değişiklik nedeniyle bu güncellemeden sonra bir kereye mahsus yeniden kurulum yapmanız gerekmektedir.</string>
+
+    <!-- Place selection -->
+    <string name="placeSelection_noPlacesFound">Henüz bir konum seçilmemiş.\n\nKonum seçmek için sağ alt köşedeki düğmeye dokunun.</string>
+    <string name="placeSelection_country">Bir Ülke Seçin</string>
+    <string name="placeSelection_country_search">Ülke Ara</string>
+    <string name="placeSelection_city">Bir Şehir Seçin</string>
+    <string name="placeSelection_city_search">Şehir Ara</string>
+    <string name="placeSelection_district">Bir İlçe/Bölge Seçin</string>
+    <string name="placeSelection_district_search">İlçe/Bölge Ara</string>
+
+    <!-- Prayer times -->
+    <string name="prayerTimes_cardTitle_remainingTime">%1$s Vaktine Kalan Zaman:</string>
+
+    <!-- States -->
+    <string name="state_loading">Yükleniyor, lütfen bekleyin…</string>
+    <string name="state_error">Hay aksi! Bir hata oluştu.\n\nİnternete bağlı olduğunuzdan emin olun.\n\nYeniden denemek için sağ alt köşedeki düğmeye dokunun.</string>
+    <string name="state_noData">Hay aksi! Aradığınız veri bulunamadı.\n\nİndirmeyi denemek için sağ alt köşedeki düğmeye dokunun.</string>
+
+    <!-- Reminders -->
+    <string name="reminders_notification_title">Namaz Vakti Yaklaşıyor</string>
+    <string name="reminders_notification_summary">%2$s vaktine %1$d dakikadan az kaldı!</string>
+    <string name="reminders_notificationOnPrayerTime_title">Namaz Vakti</string>
+    <string name="reminders_notificationOnPrayerTime_summary">%1$s vakti geldi!</string>
+
+    <!-- Preferences -->
+    <string name="preferences">Tercihler</string>
+
+    <string name="preferences_category_general">Genel</string>
+
+    <string name="preferences_place_title">Seçilen Konum</string>
+    <string name="preferences_place_noPlacesFound">Konum seçilmedi</string>
+
+    <string name="preferences_reminders_title">Hatırlatıcılar</string>
+    <string name="preferences_reminders_summary">Namaz vakitleri için hatırlatıcılar belirleyin</string>
+
+    <string name="preferences_reminders_enabled">Açık</string>
+    <string name="preferences_reminders_sound">Ses</string>
+    <string name="preferences_reminders_silent">Sessiz</string>
+    <string name="preferences_reminders_vibration">Titreşim</string>
+    <string name="preferences_reminders_remindBeforePrayerTime">Vakitten Önce Hatırlat</string>
+    <string name="preferences_reminders_timeToRemind">Hatırlatıcı Zamanı</string>
+    <string name="preferences_reminders_timeToRemindSummary">Vakitten %1$d dakika önce</string>
+    <string name="preferences_reminders_remindOnPrayerTime">Vakitte Hatırlat</string>
+
+    <string name="preferences_category_more">Daha Fazlası</string>
+
+    <string name="preferences_more_title">Hakkında</string>
+    <string name="preferences_more_rate">Oy Verin &amp; Yorum Yapın</string>
+    <string name="preferences_more_feedback">Geri Bildirim Gönderin</string>
+    <string name="preferences_more_version">Sürüm</string>
+    <string name="preferences_more_openSource">Açık Kaynak Lisansları</string>
+
+    <!-- Widgets -->
+    <string name="widgets_prayertimes_horizontal_label">Müezzin (Yatay)</string>
+    <string name="widgets_prayertimes_vertical_label">Müezzin (Dikey)</string>
+    <string name="widgets_prayertimes_big_label">Müezzin (Büyük)</string>
+</resources>

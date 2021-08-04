@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kennyc.view.MultiStateView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/multiStateView_prayerTimes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:msv_emptyView="@layout/state_nodata"
+    app:msv_errorView="@layout/state_error"
+    app:msv_loadingView="@layout/state_loading"
+    app:msv_viewState="loading">
+
+    <include layout="@layout/content_prayertimes" />
+</com.kennyc.view.MultiStateView>
